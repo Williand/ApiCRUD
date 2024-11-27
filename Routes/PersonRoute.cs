@@ -21,7 +21,7 @@ namespace Person.Routes
 
             route.MapGet("", async (PersonContext context, int page = 1, int pageSize = 10) =>
             {
-                var people = await context.People.Skip((page - 1) * pageSize).Take(pageSize).ToListAsync();
+                var people = await context.People.Where(person => person.Name != "Desativado").Skip((page - 1) * pageSize).Take(pageSize).ToListAsync();
                 return Results.Ok(people);
             });
 

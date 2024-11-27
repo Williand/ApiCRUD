@@ -48,9 +48,10 @@
               "RelativeDocumentMoniker": "Models\\PersonModel.cs",
               "ToolTip": "C:\\Users\\wilia\\Desktop\\CursoAPI\\Person\\Models\\PersonModel.cs",
               "RelativeToolTip": "Models\\PersonModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T12:24:03.305Z"
+              "WhenOpened": "2024-11-27T12:24:03.305Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -72,7 +73,7 @@
               "RelativeDocumentMoniker": "Routes\\PersonRoute.cs",
               "ToolTip": "C:\\Users\\wilia\\Desktop\\CursoAPI\\Person\\Routes\\PersonRoute.cs",
               "RelativeToolTip": "Routes\\PersonRoute.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAABIAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAABeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-27T11:54:21.773Z",
               "EditorCaption": ""
