@@ -16,6 +16,7 @@ namespace Person.Routes
                 var person = new PersonModel(req.name);
                 await context.AddAsync(person);
                 await context.SaveChangesAsync();
+                return Results.Ok(new { Message = "Person created successfully.", Person = person });
             });
 
             route.MapGet("", async (PersonContext context, int page = 1, int pageSize = 10) =>
@@ -29,12 +30,12 @@ namespace Person.Routes
                 var person = await context.People.FirstOrDefaultAsync(x => x.Id == id);
                 if (person == null)
                 {
-                    return Results.NotFound();
+                    return Results.NotFound(new { Message = "Person not found.", Id = id });
                 }
                 person.ChangeName(req.name);
                 await context.SaveChangesAsync();
 
-                return Results.Ok(person);
+                return Results.Ok(new { Message = "Person updated successfully.", Person = person });
             });
 
             route.MapDelete("{id:guid}", async (Guid id, PersonContext context) =>
@@ -43,12 +44,12 @@ namespace Person.Routes
                 
                 if (person == null)
                 {
-                    return Results.NotFound();
+                    return Results.NotFound(new { Message = "Person not found.", Id = id });
                 }
 
                 person.SetInactive();
                 await context.SaveChangesAsync();
-                return Results.Ok();
+                return Results.Ok(new { Message = "Person deleted successfully.", Person = person });
             });
         }
     }

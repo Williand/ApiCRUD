@@ -50,8 +50,7 @@
               "RelativeToolTip": "Models\\PersonModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T12:24:03.305Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T12:24:03.305Z"
             },
             {
               "$type": "Document",
@@ -63,8 +62,7 @@
               "RelativeToolTip": "Data\\PersonContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T12:21:05.788Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T12:21:05.788Z"
             },
             {
               "$type": "Document",
@@ -74,7 +72,7 @@
               "RelativeDocumentMoniker": "Routes\\PersonRoute.cs",
               "ToolTip": "C:\\Users\\wilia\\Desktop\\CursoAPI\\Person\\Routes\\PersonRoute.cs",
               "RelativeToolTip": "Routes\\PersonRoute.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwC0AAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAABIAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-27T11:54:21.773Z",
               "EditorCaption": ""
@@ -89,8 +87,7 @@
               "RelativeToolTip": "Models\\PersonRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T11:51:08.816Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T11:51:08.816Z"
             },
             {
               "$type": "Document",
@@ -102,8 +99,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T11:47:47.105Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T11:47:47.105Z"
             }
           ]
         }
