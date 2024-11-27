@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.EntityFrameworkCore;
 using Person.Data;
 using Person.Models;
 
@@ -17,9 +18,9 @@ namespace Person.Routes
                 await context.SaveChangesAsync();
             });
 
-            route.MapGet("", async (PersonContext context) =>
+            route.MapGet("", async (PersonContext context, int page = 1, int pageSize = 10) =>
             {
-                var people = await context.People.ToListAsync();
+                var people = await context.People.Skip((page - 1) * pageSize).Take(pageSize).ToListAsync();
                 return Results.Ok(people);
             });
 
