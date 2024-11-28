@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\wilia\\Desktop\\CursoAPI\\Person\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F5D09C0A-02CF-4542-8754-44320FDC1215}|Person.csproj|c:\\users\\wilia\\desktop\\cursoapi\\person\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5D09C0A-02CF-4542-8754-44320FDC1215}|Person.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F5D09C0A-02CF-4542-8754-44320FDC1215}|Person.csproj|c:\\users\\wilia\\desktop\\cursoapi\\person\\routes\\personroute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F5D09C0A-02CF-4542-8754-44320FDC1215}|Person.csproj|solutionrelative:routes\\personroute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F5D09C0A-02CF-4542-8754-44320FDC1215}|Person.csproj|c:\\users\\wilia\\desktop\\cursoapi\\person\\models\\personmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F5D09C0A-02CF-4542-8754-44320FDC1215}|Person.csproj|solutionrelative:models\\personmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5D09C0A-02CF-4542-8754-44320FDC1215}|Person.csproj|c:\\users\\wilia\\desktop\\cursoapi\\person\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5D09C0A-02CF-4542-8754-44320FDC1215}|Person.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F5D09C0A-02CF-4542-8754-44320FDC1215}|Person.csproj|c:\\users\\wilia\\desktop\\cursoapi\\person\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -46,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,7 +70,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\wilia\\Desktop\\CursoAPI\\Person\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -78,24 +78,25 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T11:47:47.105Z"
+              "WhenOpened": "2024-11-27T11:47:47.105Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "PersonRoute.cs",
               "DocumentMoniker": "C:\\Users\\wilia\\Desktop\\CursoAPI\\Person\\Routes\\PersonRoute.cs",
               "RelativeDocumentMoniker": "Routes\\PersonRoute.cs",
               "ToolTip": "C:\\Users\\wilia\\Desktop\\CursoAPI\\Person\\Routes\\PersonRoute.cs",
               "RelativeToolTip": "Routes\\PersonRoute.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwCEAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-27T11:54:21.773Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "PersonModel.cs",
               "DocumentMoniker": "C:\\Users\\wilia\\Desktop\\CursoAPI\\Person\\Models\\PersonModel.cs",
               "RelativeDocumentMoniker": "Models\\PersonModel.cs",
