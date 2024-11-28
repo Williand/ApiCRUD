@@ -19,9 +19,17 @@ namespace Person.Routes
                 return Results.Ok(new { Message = "Person created successfully.", Person = person });
             });
 
-            route.MapGet("", async (PersonContext context, int page = 1, int pageSize = 10) =>
+            route.MapGet("", async (PersonContext context, string? searchTerm = null, int page = 1, int pageSize = 10) =>
             {
-                var people = await context.People.Where(person => person.Name != "Desativado").Skip((page - 1) * pageSize).Take(pageSize).ToListAsync();
+                var query = context.People.AsQueryable();
+
+                // Se searchTerm for fornecido, aplicamos o filtro
+                if (!string.IsNullOrEmpty(searchTerm))
+                {
+                    query = query.Where(person => EF.Functions.Like(person.Name, $"%{searchTerm}%"));
+                }
+
+                var people = await query.Where(person => person.Name != "Desativado").Skip((page - 1) * pageSize).Take(pageSize).ToListAsync();
                 return Results.Ok(people);
             });
 

@@ -1,11 +1,19 @@
 {
   "Version": 1,
-  "Hash": "+gPruVvOsgZrH050Kp3rBmBQcqkhzEUxImubBN5T6ms=",
+  "Hash": "Z1NDeWqBSqkimjFxfgAiYw46ZGief9SDWIOD7G414pc=",
   "Source": "Person",
   "BasePath": "_content/Person",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Person\\wwwroot",
+      "Source": "Person",
+      "ContentRoot": "C:\\Users\\wilia\\Desktop\\CursoAPI\\Person\\wwwroot\\",
+      "BasePath": "_content/Person",
+      "Pattern": "**"
+    }
+  ],
   "Assets": []
 }

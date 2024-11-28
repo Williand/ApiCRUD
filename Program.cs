@@ -9,6 +9,13 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<PersonContext>();
 
+builder.Services.AddCors(option => option.AddDefaultPolicy(policy =>
+{
+    policy.AllowAnyOrigin();
+    policy.AllowAnyMethod();
+    policy.AllowAnyHeader();
+}));
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -20,5 +27,6 @@ if (app.Environment.IsDevelopment())
 
 app.PersonRoutes();
 
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();
+app.UseCors();
 app.Run();

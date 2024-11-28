@@ -133,3 +133,4 @@ C:\Users\wilia\Desktop\CursoAPI\Person\bin\Debug\net8.0\runtimes\win-arm64\nativ
 C:\Users\wilia\Desktop\CursoAPI\Person\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\wilia\Desktop\CursoAPI\Person\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
 C:\Users\wilia\Desktop\CursoAPI\Person\obj\Debug\net8.0\Person.sourcelink.json
+C:\Users\wilia\Desktop\CursoAPI\Person\bin\Debug\net8.0\Person.staticwebassets.runtime.json

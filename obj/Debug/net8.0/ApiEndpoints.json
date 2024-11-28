@@ -30,6 +30,11 @@
     "Order": 0,
     "Parameters": [
       {
+        "Name": "searchTerm",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
         "Name": "page",
         "Type": "System.Int32",
         "IsRequired": false
